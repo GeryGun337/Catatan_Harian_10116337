@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.infoFragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/profile2">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFORMASI APLIKASI"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dkblue"
+        android:layout_below="@+id/profile2"
+        android:id="@+id/view"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/catatan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="  Catatan Harian adalah perangkat lunak yang dirancang untuk membantu pengguna dalam
+            mencatat dan menyimpan informasi secara teratur. Aplikasi ini telah menjadi populer karena kemudahan penggunaannya dan kepraktisannya dalam menjaga catatan harian digital.\n
+Berikut adalah informasi tentang aplikasi catatan harian yang mungkin berguna untuk Anda: Tujuan Aplikasi Catatan Harian dirancang untuk membantu pengguna menyimpan dan mengatur catatan harian mereka. Pengguna dapat mencatat pemikiran, pengalaman, ide, atau peristiwa penting dalam kehidupan sehari-hari. Aplikasi ini juga dapat membantu dalam mengingat jadwal, tugas, atau daftar belanja."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="italic"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dkblue"
+            android:layout_marginTop="12dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
